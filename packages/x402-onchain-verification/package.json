@@ -1,0 +1,51 @@
+{
+  "name": "x402-onchain-verification",
+  "version": "0.1.1",
+  "description": "Direct on-chain payment verification for Express.js - x402 protocol without facilitator servers",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "x402",
+    "402",
+    "payment-required",
+    "micropayments",
+    "express",
+    "middleware",
+    "crypto",
+    "blockchain",
+    "usdc",
+    "on-chain",
+    "direct-verification",
+    "web3",
+    "Solana",
+    "Solana",
+    "payments",
+    "no-facilitator"
+  ],
+  "author": "Lens402 (https://github.com/Lens402/lens402-sdk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lens402/lens402-sdk/Lens402.git",
+    "directory": "packages/x402-onchain-verification"
+  },
+  "bugs": {
+    "url": "https://github.com/Lens402/lens402-sdk/Lens402/issues"
+  },
+  "homepage": "https://github.com/Lens402/lens402-sdk/Lens402/tree/main/packages/x402-onchain-verification#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0 || ^5.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.21.2"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
