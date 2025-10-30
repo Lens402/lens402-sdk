@@ -75,23 +75,6 @@ async function typeWriter(text, color = 'white', delay = 30) {
   process.stdout.write(colors.reset + '\n');
 }
 
-async function showHeader() {
-  console.clear();
-  print('═'.repeat(70), 'cyan');
-  print('', 'cyan');
-  print('   ██╗   ██╗███████╗███╗   ██╗██████╗ ', 'cyan');
-  print('   ██║   ██║██╔════╝████╗  ██║██╔══██╗', 'cyan');
-  print('   ██║   ██║█████╗  ██╔██╗ ██║██║  ██║', 'cyan');
-  print('   ╚██╗ ██╔╝██╔══╝  ██║╚██╗██║██║  ██║', 'cyan');
-  print('    ╚████╔╝ ███████╗██║ ╚████║██████╔╝', 'cyan');
-  print('     ╚═══╝  ╚══════╝╚═╝  ╚═══╝╚═════╝ ', 'cyan');
-  print('', 'cyan');
-  print('   Monetized Transaction History API using x402 & Alchemy', 'white');
-  print('        🎰 Blockchain Data Vending Machine', 'bright');
-  print('        Insert payment → Get data instantly', 'dim');
-  print('', 'cyan');
-  print('═'.repeat(70), 'cyan');
-  await sleep(1000);
 }
 
 async function demoPaymentFlow() {
